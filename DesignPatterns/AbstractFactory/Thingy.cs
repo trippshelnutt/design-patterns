@@ -1,6 +1,6 @@
 ﻿namespace DesignPatterns.AbstractFactory
 {
-    public class Thingy : IThingy
+    public class Thingy : IProduct
     {
         private readonly string data;
 
@@ -9,7 +9,7 @@
             this.data = data;
         }
         
-        public string Bar()
+        public string Foo()
         {
             return data;
         }

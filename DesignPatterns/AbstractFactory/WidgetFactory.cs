@@ -1,8 +1,8 @@
 ﻿namespace DesignPatterns.AbstractFactory
 {
-    public class WidgetFactory : IWidgetFactory
+    public class WidgetFactory : IProductFactory
     {
-        public IWidget CreateWidget()
+        public IProduct CreateProduct()
         {
             return new Widget();
         }

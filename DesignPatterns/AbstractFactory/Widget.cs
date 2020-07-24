@@ -1,6 +1,6 @@
 ﻿namespace DesignPatterns.AbstractFactory
 {
-    public class Widget : IWidget
+    public class Widget : IProduct
     {
         public string Foo()
         {

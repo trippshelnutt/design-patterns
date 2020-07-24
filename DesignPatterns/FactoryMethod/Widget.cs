@@ -1,12 +1,12 @@
 ﻿namespace DesignPatterns.FactoryMethod
 {
-    public class Widget : IWidget
+    public class Widget : IProduct
     {
         private Widget()
         {
         }
 
-        public static IWidget Create()
+        public static IProduct Create()
         {
             return new Widget();
         }

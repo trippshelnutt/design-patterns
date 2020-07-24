@@ -6,17 +6,14 @@ namespace DesignPatternsApp
     {
         public static void Run()
         {
-            var widgetFactory = new WidgetFactory();
-            var thingyFactory = new ThingyFactory("Thingy");
-            var componentFactory = new ComponentFactory();
+            var factory1 = new WidgetFactory();
+            var factory2 = new ThingyFactory("Thingy");
             
-            var widget = widgetFactory.CreateWidget();
-            var thingy = thingyFactory.CreateThingy();
-            var component = componentFactory.CreateComponent("Component");
+            var product1 = factory1.CreateProduct();
+            var product2 = factory2.CreateProduct();
 
-            widget.Foo();
-            thingy.Bar();
-            component.Baz();
+            product1.Foo();
+            product2.Foo();
         }
     }
 }

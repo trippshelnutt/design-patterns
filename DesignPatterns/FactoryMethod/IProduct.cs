@@ -1,6 +1,6 @@
 ﻿namespace DesignPatterns.FactoryMethod
 {
-    public interface IWidget
+    public interface IProduct
     {
         string Foo();
     }

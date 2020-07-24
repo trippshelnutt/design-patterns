@@ -1,7 +1,7 @@
 ﻿namespace DesignPatterns.AbstractFactory
 {
-    public interface IComponent
+    public interface IProduct
     {
-        string Baz();
+        string Foo();
     }
 }
